@@ -1,0 +1,58 @@
+{
+    "experiences": [
+        {
+            "company": "Tata Technologies",
+            "link": "/",
+            "title": "Solution Developer",
+            "duration": "Dec 2021 - Present",
+            "desc": [
+                "Worked with team and also managed team to develop a web application for a clients: Tata Steel, Godrej, Jaguar Land Rover and Kia Motors.",
+                "Worked as a full stack developer and developed a web application using React, Express and MongoDB.",
+                "Also have hands on experience in developing a mobile application using React Native.",
+                "Worked on various projects and also have hands on experience in AWS and Azure."
+            ]
+        },
+        {
+            "company": "Syren Technologies",
+            "link": "/",
+            "title": "Frontend Developer",
+            "duration": "Sep 2021 - Dec 2021",
+            "desc": [
+                "Worked as a React Developer and developed a web application using React And Redux.",
+                "Also got to learn about Tailwind CSS and Material UI.",
+                "Worked under the guidance of senior developers and also got to learn about the industry standards.",
+                "Our Major client was GitHub and we developed a web application for them."
+            ]
+        },
+        {
+            "company": "plixx.co.in",
+            "link": "/",
+            "title": "Owner",
+            "duration": "Mar 2023 - Present",
+            "desc": [
+                "Managed a team of 5 people and developed with Agile Methodology.",
+                "It currently has 200K users and is growing rapidly.",
+                "We earned through ads and also through premium subscription.",
+                "Technologies used: React, Express, MongoDB, Firebase, AWS, Azure, Google Cloud."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title":"Ecommerce",
+            "image": "./images/project_1.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": ""
+        },
+        {
+            "title":"Spotify",
+            "image": "./images/project_2.png",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "skills": ["React", "Express", "MongoDB"],
+            "github": "/",
+            "link": "/"
+        }
+    ]
+}
