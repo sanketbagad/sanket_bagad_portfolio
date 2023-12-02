@@ -1,15 +1,13 @@
-// Navbar.js
-import { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
-import styles from './styles.module.css';
+import { useState } from "react";
+import styles from "./styles.module.css";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
   const onResumeDownload = () => {
-    const link = document.createElement('a');
-    link.href = './images/resume.pdf';
-    link.setAttribute('download', 'Sanket_Bagad.pdf');
+    const link = document.createElement("a");
+    link.href = "./images/resume.pdf";
+    link.setAttribute("download", "Sanket_Bagad.pdf");
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -23,7 +21,7 @@ function Navbar() {
         </a>
       </div>
       <div className={styles.nav_right}>
-        <div className={`${styles.nav_links} ${showMenu ? styles.show : ''}`}>
+        <div className={`${styles.nav_links} ${showMenu ? styles.show : ""}`}>
           <a href="#about" className={styles.nav_link}>
             <span>01.</span>About
           </a>
@@ -43,8 +41,7 @@ function Navbar() {
         <div
           className={`${styles.hamburger_icon}`}
           onClick={() => setShowMenu(!showMenu)}
-        >
-        </div>
+        ></div>
       </div>
     </nav>
   );
