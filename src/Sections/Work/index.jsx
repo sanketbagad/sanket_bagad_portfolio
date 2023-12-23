@@ -22,7 +22,8 @@ function Work() {
                 ))}
               </div>
               <div className={styles.links_container}>
-                <a href="/" className={styles.link}>
+                <a href={project.github} target='_blank' rel='noreferrer'
+                className={styles.link}>
                   <GitHubIcon />
                 </a>
                 <a href="/" className={styles.link}>
@@ -32,10 +33,13 @@ function Work() {
             </div>
             <div className={styles.right}>
               <a href={project.link} target="__blank">
-                <img
+                <video
                   src={project.image}
                   className={styles.img}
                   alt="project_img"
+                  autoPlay
+                  loop
+                  muted
                 />
               </a>
             </div>

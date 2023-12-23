@@ -39,20 +39,28 @@
     ],
     "projects": [
         {
-            "title":"Ecommerce",
-            "image": "./images/project_1.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
-            "link": ""
+            "title":"Plixx.co.in",
+            "image": "https://plixx.co.in/promo.mp4",
+            "desc": "Plixx is a OTT platform where you can watch movies, web series and TV shows. It is a free platform and is currently used by 200K users. Users can also subscribe to premium subscription to get access to premium content.",
+            "skills": ["React", "Express", "MongoDB", "Firebase", "AWS", "Azure", "Google Cloud"],
+            "github": "https://github.com/sanketbagad",
+            "link": "www.plixx.co.in"
         },
         {
-            "title":"Spotify",
-            "image": "./images/project_2.png",
-            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "skills": ["React", "Express", "MongoDB"],
-            "github": "/",
-            "link": "/"
+            "title":"Godrej - Safelog",
+            "image": "./images/godrej.webm",
+            "desc": "Safelog is a web application developed for Godrej. It is used to track the movement of the goods and also to track the location of the goods. An IoT device is attached to the goods and the location is tracked using the IoT device.",
+            "skills": ["React", "Express", "MongoDB", "Azure", "Cosmos DB", "Azure IoT"],
+            "github": "https://github.com/sanketbagad",
+            "link": "https://safelog.godrej.com/"
+        },
+        {
+            "title":"Tata Steel - Ensafe Nxt",
+            "image": "./images/tsl.webm",
+            "desc": "A Web Application for Tata Steel Users To Get Info About What Is Happening In The Company. It Also Has A Chatbot Which Is Used To Get Info About The Company. It Also Has A Feature To Book A Meeting Room.",
+            "skills": ["React", ".NET", "SQL Server", "Azure", "Cosmos DB"],
+            "github": "https://github.com/sanketbagad",
+            "link": "https://dazzling-flan-626252.netlify.app/"
         }
     ]
 }
